@@ -1,0 +1,29 @@
+{
+  "name": "nutshell",
+  "version": "1.0.0",
+  "description": "A Swiss Army Knife shell written in JavaScript",
+  "main": "dist/app.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "nodemon dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyLicon/nutshell.git"
+  },
+  "keywords": [],
+  "author": "Kush Patel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CyLicon/nutshell/issues"
+  },
+  "homepage": "https://github.com/CyLicon/nutshell#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint": "^8.8.0",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.5"
+  }
+}
